@@ -6,8 +6,9 @@
 感谢[comfyanonymous](https://github.com/comfyanonymous/ComfyUI)开源ComfyUI。**  
 
 **如果你在运行ComfyUI-LTXVideo工作流时出现不能访问[huggingface](https://huggingface.co/),你可以在运行工作流前按下面的方法操作**  
-'''python
+```python
 pip install -U huggingface_hub  
-export HF_ENDPOINT=https://hf-mirror.com  '''
-如果你要手动下载unsloth/Llama-3.2-3B-Instruct和MiaoshouAI/Florence-2-large-PromptGen-v2.0,请下载到Models/LLM目录下面
+export HF_ENDPOINT=https://hf-mirror.com
+```
+**如果你要手动下载unsloth/Llama-3.2-3B-Instruct和MiaoshouAI/Florence-2-large-PromptGen-v2.0,请下载到Models/LLM目录下面**
 
